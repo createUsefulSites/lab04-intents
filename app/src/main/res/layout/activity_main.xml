@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F9F7"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_title"
+        android:textColor="#1B1F1D"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/readerRequestEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/reader_request_hint"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/selectedBookTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="#2D332F"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/bookListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:choiceMode="singleChoice"
+        android:divider="#D8DED8"
+        android:dividerHeight="1dp" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="#E8F1FA"
+        android:padding="12dp"
+        android:textColor="#1B2B3A"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/openSecondButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:minHeight="52dp"
+        android:text="@string/open_book_details" />
+
+    <Button
+        android:id="@+id/openWebButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:minHeight="52dp"
+        android:text="@string/open_book_online" />
+
+</LinearLayout>

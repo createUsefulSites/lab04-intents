@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Городская онлайн библиотека</string>
+    <string name="main_title">Городская онлайн библиотека</string>
+    <string name="reader_request_hint">Заявка читателя: цель, формат или заметка</string>
+    <string name="open_book_details">Открыть заявку на книгу</string>
+    <string name="open_book_online">Найти книгу онлайн</string>
+    <string name="selected_book">Выбранная книга: %1$s</string>
+    <string name="result_empty">Результат редактирования пока не получен</string>
+    <string name="result_received">Получен результат для «%1$s»: %2$s</string>
+    <string name="result_cancelled">Возврат выполнен без сохранения изменений</string>
+    <string name="second_title">Заявка на книгу</string>
+    <string name="book_identifier">ID книги: %1$d</string>
+    <string name="book_author">Автор: %1$s</string>
+    <string name="book_genre">Жанр: %1$s</string>
+    <string name="received_request">Заявка читателя: %1$s</string>
+    <string name="empty_request">заявка не заполнена</string>
+    <string name="updated_note_hint">Обновленная заметка или статус заявки</string>
+    <string name="default_updated_note">Книга добавлена в список чтения</string>
+    <string name="save_and_return">Сохранить и вернуться</string>
+    <string name="cancel_return">Вернуться без сохранения</string>
+    <string name="open_web_chooser">Открыть поиск книги</string>
+    <string name="no_browser_found">Не найдено приложение для открытия сайта</string>
+</resources>

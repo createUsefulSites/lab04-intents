@@ -1,0 +1,16 @@
+plugins {
+    id "com.android.application"
+}
+
+android {
+    namespace "ru.vuz.lab04intents"
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "ru.vuz.lab04intents"
+        minSdk 21
+        targetSdk 35
+        versionCode 1
+        versionName "1.0"
+    }
+}
